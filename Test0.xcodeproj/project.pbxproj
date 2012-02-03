@@ -20,11 +20,11 @@
 		4B8AA3CB14DBF496005F6446 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4B8AA3CD14DBF496005F6446 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4B8AA3CF14DBF496005F6446 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		4B8AA3D314DBF496005F6446 /* Test0-Info.plist */ = {isa = PBXFileReference; path = "Test0-Info.plist"; sourceTree = "<group>"; };
+		4B8AA3D314DBF496005F6446 /* Test0-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Test0-Info.plist"; sourceTree = "<group>"; };
 		4B8AA3D514DBF496005F6446 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4B8AA3D714DBF496005F6446 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4B8AA3D914DBF496005F6446 /* Test0-Prefix.pch */ = {isa = PBXFileReference; path = "Test0-Prefix.pch"; sourceTree = "<group>"; };
-		4B8AA3DA14DBF496005F6446 /* MFAppDelegate.h */ = {isa = PBXFileReference; path = MFAppDelegate.h; sourceTree = "<group>"; };
+		4B8AA3D914DBF496005F6446 /* Test0-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Test0-Prefix.pch"; sourceTree = "<group>"; };
+		4B8AA3DA14DBF496005F6446 /* MFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFAppDelegate.h; sourceTree = "<group>"; };
 		4B8AA3DB14DBF496005F6446 /* MFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MFAppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -117,6 +117,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "MF APP AG";
 			};
 			buildConfigurationList = 4B8AA3C114DBF496005F6446 /* Build configuration list for PBXProject "Test0" */;
 			compatibilityVersion = "Xcode 3.2";

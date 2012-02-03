@@ -3,7 +3,7 @@
 //  Test0
 //
 //  Created by Andreas Daum on 03.02.12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2012 MF APP AG. All rights reserved.
 //
 
 #import "MFAppDelegate.h"
@@ -16,6 +16,8 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    NSLog(@"TEST 0 started");
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
